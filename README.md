@@ -2,6 +2,7 @@
 
 ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/Harrison-Reich/Practice?style=flat&logo=appveyor) ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/Harrison-Reich/practiceStuff?color=purple)
 
+Click [here](https://harrison-reich.github.io/Calendar/) to try the calendar app for yourself!
   
   ## Table of Content
 
