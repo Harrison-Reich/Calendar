@@ -3,6 +3,7 @@
   height: 300px;
   border: 1px solid black;
   margin: 150px 300px;
+  background-color: #E63946;
 }
 
 #calendarHeader {
@@ -14,19 +15,31 @@
 
 span {
   font-size: 20px;
+  cursor: pointer;
+  color: #F1FAEE;
 }
 
 .month-year {
   display: inline;
+  color: #F1FAEE;
+
 }
 
 .content {
   display: flex;
   justify-content: space-around;
+  color: #F1FAEE;
+}
+
+.dayColumn {
+  cursor: pointer;
 }
 
 .bigDate {
   position: absolute;
   top: 50px;
   left: 47%;
+  color: #F1FAEE;
+  background-color: #1D3557;
+  padding: 10px;
 }
