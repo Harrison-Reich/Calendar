@@ -133,3 +133,14 @@ renderCalendar(
   yearChosen,
   monthChosen
 );
+
+window.addEventListener("load", () => {
+  let today = new Date();
+  let dd = today.getDate();
+  let mm = today.getMonth();
+  let currentMonth = months[mm];
+  let month = months[mm];
+  let yyyy = today.getFullYear();
+  today = currentMonth + " " + dd + ", " + yyyy;
+  document.getElementById("dateDisplay").innerText = today;
+});
