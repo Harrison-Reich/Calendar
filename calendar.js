@@ -140,9 +140,8 @@ window.addEventListener("load", () => {
   let today = new Date();
   let dd = today.getDate();
   let mm = today.getMonth();
-  let currentMonth = months[mm];
-  let month = months[mm];
   let yyyy = today.getFullYear();
+  let currentMonth = months[mm];
   today = currentMonth + " " + dd + ", " + yyyy;
   document.getElementById("dateDisplay").innerText = today;
 });
