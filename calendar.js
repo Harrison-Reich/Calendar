@@ -128,12 +128,14 @@ function displayDate(date) {
   document.getElementById("dateDisplay").innerText = date;
 }
 
+// calling renderCal function
 renderCalendar(
   getNumberOfDays(yearChosen, monthChosen),
   yearChosen,
   monthChosen
 );
 
+// displaying current date on page load
 window.addEventListener("load", () => {
   let today = new Date();
   let dd = today.getDate();
