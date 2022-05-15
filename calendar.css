@@ -1,8 +1,13 @@
+.fullDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #calendarContainer {
   width: 300px;
   height: 300px;
   border: 1px solid black;
-  margin: 150px 300px;
   background-color: #745296;
 }
 
@@ -16,19 +21,18 @@
 span {
   font-size: 20px;
   cursor: pointer;
-  color: #F1FAEE;
+  color: #f1faee;
 }
 
 .month-year {
   display: inline;
-  color: #F1FAEE;
-
+  color: #f1faee;
 }
 
-.content {
+.daysOfTheWeek {
   display: flex;
   justify-content: space-around;
-  color: #F1FAEE;
+  color: #f1faee;
 }
 
 .dayColumn {
@@ -36,10 +40,7 @@ span {
 }
 
 .bigDate {
-  position: absolute;
-  top: 50px;
-  left: 47%;
-  color: #F1FAEE;
+  color: #f1faee;
   background-color: #745296;
   border: 1px solid black;
   padding: 10px;

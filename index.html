@@ -9,38 +9,40 @@
     <script src="calendar.js" defer></script>
   </head>
   <body>
+    <div class="fullDisplay">
       <h1 id="dateDisplay" class="bigDate"></h1>
-    <div id="calendarContainer">
-      <div id="calendarHeader">
-        <div>
-          <span onclick="changeMonth('subtract')"><</span>
-          <p class="month-year" id="month"></p>
-          <span onclick="changeMonth('add')">></span>
+      <div id="calendarContainer">
+        <div id="calendarHeader">
+          <div>
+            <span onclick="changeMonth('subtract')"><</span>
+            <p class="month-year" id="month"></p>
+            <span onclick="changeMonth('add')">></span>
+          </div>
+          <div>
+            <span onclick="changeYear('subtract')"><</span>
+            <p class="month-year" id="year"></p>
+            <span onclick="changeYear('add')">></span>
+          </div>
         </div>
-        <div>
-          <span onclick="changeYear('subtract')"><</span>
-          <p class="month-year" id="year"></p>
-          <span onclick="changeYear('add')">></span>
-        </div>
-      </div>
-      <div id="daysContainer">
-        <div class="content">
-          <p>Sun</p>
-          <p>Mon</p>
-          <p>Tues</p>
-          <p>Wed</p>
-          <p>Thurs</p>
-          <p>Fri</p>
-          <p>Sat</p>
-        </div>
-        <div class="content">
-          <div id="0" class="dayColumn"></div>
-          <div id="1" class="dayColumn"></div>
-          <div id="2" class="dayColumn"></div>
-          <div id="3" class="dayColumn"></div>
-          <div id="4" class="dayColumn"></div>
-          <div id="5" class="dayColumn"></div>
-          <div id="6" class="dayColumn"></div>
+        <div id="daysContainer">
+          <div class="daysOfTheWeek">
+            <p>Sun</p>
+            <p>Mon</p>
+            <p>Tues</p>
+            <p>Wed</p>
+            <p>Thurs</p>
+            <p>Fri</p>
+            <p>Sat</p>
+          </div>
+          <div class="daysOfTheWeek">
+            <div id="0" class="dayColumn"></div>
+            <div id="1" class="dayColumn"></div>
+            <div id="2" class="dayColumn"></div>
+            <div id="3" class="dayColumn"></div>
+            <div id="4" class="dayColumn"></div>
+            <div id="5" class="dayColumn"></div>
+            <div id="6" class="dayColumn"></div>
+          </div>
         </div>
       </div>
     </div>
