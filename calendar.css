@@ -1,3 +1,6 @@
+.container {
+  height: 100vh;
+}
 .fullDisplay {
   display: flex;
   flex-direction: column;
@@ -35,8 +38,18 @@ span {
   color: #f1faee;
 }
 
+.daysofthemonth {
+  display: flex;
+  justify-content: space-around;
+  color: #f1faee;
+
+}
+
 .dayColumn {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bigDate {
